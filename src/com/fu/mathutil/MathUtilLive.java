@@ -27,6 +27,9 @@ public class MathUtilLive {
         System.out.println("expected: 1! = 1; actual: " + MathUtil.getFactorial(1));
         System.out.println("expected: 3! = 6; actual: " + MathUtil.getFactorial(3));
         
+        System.out.println("This jar file is built based on ANT in co-operating with JUnit");
+        System.out.println("More over, this message comes from a US-BUILT'S JAR FILE");
+        
         //kĩ thuật kiểm thử phần mềm: Ước lượng xem giá trị trả về của hàm là gì
         //Expected value: 5! =120
         //mày/hàm ai đ1o viết khi chạy thực tế là mấy - actual, giả sử 120
