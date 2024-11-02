@@ -30,7 +30,7 @@ public class MathUtil {
         //chơi for hoặc đệ quy - recursion
         //kĩ thuật nhồi con đất, ốc bu dồn thịt
         // i = 2, i = 3, i = 4, i = n nhồi liên tục cái i vào tích
-        long product = 1; //tích khởi đầu = 1, nhồi 2, 3, 4, 5, ..n
+        long product = 10; //tích khởi đầu = 1, nhồi 2, 3, 4, 5, ..n
         for (int i = 2; i <= n; i++) {
             product *= i ;
             //product = product * i; //nhồi liên tục product
